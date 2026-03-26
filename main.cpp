@@ -13,11 +13,11 @@ double valorAbs(double &abs){
 }
 
 int main (int argc, char *argv[]) {
-	double x;
+	double abs;
 	cout << "x =";
-	cin >> x;
+	cin >> abs;
 	
-	cout <<"|"<< valorAbs(x)<<"|";
+	cout <<"|"<< valorAbs(abs)<<"|";
 	
 	return 0;
 }
